@@ -23,11 +23,11 @@ $(function() {
 	});
 
 
-$('li').click(function(e) {
-    e.preventDefault();
-    $('li').removeClass('active');
-    $('li[data-filter = ' + $(this).data('filter') + ']').addClass('active');
-});
+	$('li').click(function(e) {
+	    e.preventDefault();
+	    $('li').removeClass('active');
+	    $('li[data-filter = ' + $(this).data('filter') + ']').addClass('active');
+	});
 
 	//Toggle searchbar
     $('.search').click(function() {
@@ -42,7 +42,7 @@ $('li').click(function(e) {
     //Scroll to
     $("li, .more-work").click(function() {
     $('html, body').animate({
-        scrollTop: $(".filtr-container").offset().top
+        scrollTop: $(".slide-to").offset().top
     }, 500);
 	});
 
