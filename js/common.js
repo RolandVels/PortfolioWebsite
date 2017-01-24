@@ -21,13 +21,13 @@ $(function() {
 
 	var filterizd = $('.filtr-container').filterizr({
 	});
-	
 
-	$('li').click(function(e) {
-        e.preventDefault();
-        $('li').removeClass('active');
-        $(this).addClass('active');
-    });
+
+$('li').click(function(e) {
+    e.preventDefault();
+    $('li').removeClass('active');
+    $('li[data-filter = ' + $(this).data('filter') + ']').addClass('active');
+});
 
 	//Toggle searchbar
     $('.search').click(function() {
