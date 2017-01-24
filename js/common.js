@@ -21,7 +21,7 @@ $(function() {
 
 	var filterizd = $('.filtr-container').filterizr({
 	});
-
+	
 
 	$('li').click(function(e) {
         e.preventDefault();
