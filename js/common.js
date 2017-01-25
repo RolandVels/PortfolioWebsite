@@ -54,6 +54,11 @@ $(function() {
 	$('.more-work').hover(
        function(){ $(this).addClass('animated tada') },
        function(){ $(this).removeClass('animated tada') }
-)
+	)
+
+    $('.filtr-container').on('click', function(){
+    $('.filtr-container').toggleClass('open');
+
+})
 
 });
