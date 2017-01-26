@@ -56,7 +56,7 @@ $(function() {
        function(){ $(this).removeClass('animated tada') }
 	)
 
-    $('.').on('click', function(){
+    $('.filtr-container').on('click', function(){
     $('.filtr-container').toggleClass('open');
 	})
 
