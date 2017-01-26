@@ -42,7 +42,7 @@ $(function() {
     //Scroll to
     $("li, .more-work").click(function() {
     $('html, body').animate({
-        scrollTop: $(".slide-to").offset().top
+        scrollTop: $(".bottom-nav").offset().top
     }, 500);
 	});
 
