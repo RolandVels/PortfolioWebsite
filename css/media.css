@@ -12,8 +12,14 @@
 		display: none;
 	}
 
+}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+    .bars {
+        display: none;
+    }
 
 	.header-logo {
 		margin-top: -0px !important;

@@ -39,6 +39,11 @@ $(function() {
     	$('.nav').toggleClass('activated');
     });
 
+    //Moblie navigation slide
+	$('.search').click(function () {
+		$('.bars').toggleClass('bars_active')
+    });
+
     //Scroll to
     $("li, .more-work").click(function() {
     $('html, body').animate({
