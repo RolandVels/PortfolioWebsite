@@ -70,7 +70,17 @@ body textarea:required:valid {
   text-align: left;
 }
 
+.header-logo {
+    position: relative;
+    float: left;
+    padding-right: 30px;
+    top: 25px;
+    left: 18px;
+}
+
 .secondary-text {
+    position: absolute;
+    left: 60px;
   font-size: 11px;
   text-align: left;
   margin-top: -8px;
@@ -119,7 +129,7 @@ body textarea:required:valid {
 .nav {
   float: right;
   display: inline-block;
-  margin-top: -51px;
+  margin-top: -40px;
   margin-right: 70px;
 }
 
@@ -191,10 +201,12 @@ ul .active {
 
 .search {
     float: right;
-    margin-top: -34px;
+    margin-top: -23px;
     color: #fc758c;
     cursor: pointer;
     font-size: 17px;
+    position: absolute;
+    right: 35px;
 }
 
 .search-row {
@@ -206,20 +218,22 @@ ul .active {
 
 .filtr-search {
     height: 21px;
+    width: 150px;
     position: absolute;
-    right: 38px;
+    right: 60px;
     top: 41px;
     border: solid 2px #FC758C;
 }
 
 .bars {
-  float: left;
-  cursor: pointer;
-  position: absolute;
-  top: 34px;
-  right: 40px;
-  font-size: 20px;
-  color: #FC758C;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    top: 36px;
+    right: 60px;
+    font-size: 20px;
+    color: #FC758C;
+    display: none;
 }
 
 

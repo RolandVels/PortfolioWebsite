@@ -12,14 +12,25 @@
 		display: none;
 	}
 
+    .bars {
+        display: block;
+    }
+
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+
     .bars {
-        display: none;
+        top: 4px;
     }
+
+    .filtr-search {
+        top: 10px;
+    }
+}
 
 	.header-logo {
 		margin-top: -0px !important;
@@ -65,16 +76,16 @@
 
 /* Custom */
 @media only screen and (max-width : 610px) {
-	.bottom-nav{
-		width: 250px
-	}
+    .bottom-nav {
+        width: 250px
+    }
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.bottom-nav{
 		width: 200px
 	}
-
 }
 
 /* Custom, iPhone Retina */
