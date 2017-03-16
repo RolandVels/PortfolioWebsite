@@ -30,11 +30,10 @@
     .filtr-search {
         top: 10px;
     }
-}
 
-	.header-logo {
-		margin-top: -0px !important;
-	}
+    .header-logo {
+        top: -30px !important;
+    }
 
 	.bottom-nav{
 		padding: 0px;
