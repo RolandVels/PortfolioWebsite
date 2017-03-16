@@ -44,6 +44,13 @@ $(function() {
 		$('.bars').toggleClass('bars_active')
     });
 
+
+    $('.bars').click(function () {
+        $('.nav').fadeToggle('nav')
+    });
+
+
+
     //Scroll to
     $("li, .more-work").click(function() {
     $('html, body').animate({
