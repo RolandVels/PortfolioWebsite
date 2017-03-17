@@ -135,6 +135,7 @@ body textarea:required:valid {
 
 .activated {
   margin-right: 220px;
+    color: black;
 }
 
 .bars_active{
@@ -201,7 +202,7 @@ ul .active {
 
 .search {
     float: right;
-    margin-top: -25px;
+    top: 37px;
     color: #fc758c;
     cursor: pointer;
     font-size: 17px;

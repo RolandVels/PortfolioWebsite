@@ -32,7 +32,7 @@ $(function() {
 	//Toggle searchbar
     $('.search').click(function() {
     	$('.search-row').toggle();
-    });	
+    });
 
     //Slide navigation
     $('.search').click(function() {
