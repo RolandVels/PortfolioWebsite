@@ -50,6 +50,22 @@ $(function() {
     });
 
 
+    $("#top").click(function () {
+        $("body, html").animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 200) {
+            $('#top').fadeIn();
+        } else {
+            $('#top').fadeOut();
+        }
+    });
+
 
     //Scroll to
     $("li, .more-work").click(function() {

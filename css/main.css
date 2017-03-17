@@ -237,4 +237,19 @@ ul .active {
     display: none;
 }
 
+#top{
+    font-size: 45px;
+    bottom: 0px;
+    z-index: 10;
+    right: 250px;
+    opacity: 0.4;
+    position: fixed;
+    cursor: pointer;
+    display: none;
+}
+
+#top :hover{
+    opacity: 0.9;
+}
+
 
