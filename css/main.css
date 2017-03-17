@@ -241,7 +241,7 @@ ul .active {
     font-size: 45px;
     bottom: 0px;
     z-index: 10;
-    right: 250px;
+    right: 60px;
     opacity: 0.4;
     position: fixed;
     cursor: pointer;
@@ -250,6 +250,11 @@ ul .active {
 
 #top :hover{
     opacity: 0.9;
+}
+
+.fa-arrow-up {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 

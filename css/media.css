@@ -2,7 +2,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	#top {
+		right: 25px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -15,6 +17,9 @@
 		top: 75px;
 		height: 20px;
 		right: 35px;
+	}
+	#top {
+		right: 25px;
 	}
 }
 
@@ -93,6 +98,10 @@
 		animation: none !important;
 	}
 
+	#top {
+		right: 25px;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -129,6 +138,10 @@
 		top: 11px;
 		right: 60px;
 	}
+
+	#top {
+		right: 25px;
+	}
 }
 
 /* Custom */
@@ -159,6 +172,10 @@
 	.bars_active {
 		margin-right: 130px;
 	}
+
+	#top {
+		right: 25px;
+	}
 }
 
 @media only screen and (max-width : 375px) {
@@ -172,6 +189,10 @@
 
 	.filtr-search{
 		right: 60px;
+	}
+
+	#top {
+		right: 25px;
 	}
 }
 
