@@ -26,6 +26,10 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+	.main-title{
+		margin-top: 160px;
+	}
+
 	.nav {
 		display: none;
 		margin-top: 24px;
